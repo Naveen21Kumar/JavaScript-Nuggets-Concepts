@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Width/Height</title>
+  </head>
+  <style>
+    body {
+      background: #262626;
+      color: #aaa0a0;
+    }
+    h1 {
+      margin: 2rem auto;
+      width: 200px;
+    }
+    .btn {
+      display: block;
+      width: 200px;
+      border-radius: 0.25rem;
+      border: none;
+      padding: 0.5rem 0.75rem;
+      background: lightblue;
+      cursor: pointer;
+      margin: 2rem auto;
+    }
+    .box {
+      width: 150px;
+      height: 150px;
+      background: #aaa0a0;
+      /* margin: 20px auto; */
+      /* negative value */
+      margin-left: -1rem;
+      border-radius: 0.5rem;
+    }
+  </style>
+  <div class="container">
+    <h1>Width/Height</h1>
+    <button class="btn">Get dimensions</button>
+    <div class="box"></div>
+  </div>
+  <body>
+    <script src="app.js"></script>
+  </body>
+</html>
